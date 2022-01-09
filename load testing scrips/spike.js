@@ -11,6 +11,13 @@ export const options = {
     { duration: '3m', target: 100 },
     { duration: '10s', target: 0 },
   ],
+  ext: {
+    loadimpact: {
+      projectID: 3565478,
+      // Test runs with the same name groups test runs together
+      name: "Fi loadtest"
+    }
+  }
 };
 
 const data = open('../aeps_wt_request.json');

@@ -13,6 +13,13 @@ export const options = {
     { duration: '5m', target: 400 },
     { duration: '10m', target: 0 }, // scale down. Recovery stage.
   ],
+  ext: {
+    loadimpact: {
+      projectID: 3565478,
+      // Test runs with the same name groups test runs together
+      name: "Fi loadtest"
+    }
+  }
 };
 
 const data = open('../aeps_wt_request.json');

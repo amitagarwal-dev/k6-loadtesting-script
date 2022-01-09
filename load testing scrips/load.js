@@ -10,6 +10,13 @@ export const options = {
   thresholds: { // exit case
     'http_req_duration': ['p(99)<1500'], // 99% of requests must complete below 1.5s
   },
+  ext: {
+    loadimpact: {
+      projectID: 3565478,
+      // Test runs with the same name groups test runs together
+      name: "Fi loadtest"
+    }
+  }
 };
 const data = open('../aeps_wt_request.json');
 

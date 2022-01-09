@@ -7,6 +7,13 @@ export const options = {
     { duration: '3h56m', target: 400 }, // stay at 400 for ~4 hours
     { duration: '2m', target: 0 }, // scale down. (optional)
   ],
+  ext: {
+    loadimpact: {
+      projectID: 3565478,
+      // Test runs with the same name groups test runs together
+      name: "Fi loadtest"
+    }
+  }
 };
 
 const data = open('../aeps_wt_request.json');
