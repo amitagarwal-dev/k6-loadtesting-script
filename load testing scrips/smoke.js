@@ -19,7 +19,7 @@ export const options = {
 
 const data = open('../aeps_wt_request.json');
 
-const BASE_URL = 'http://127.0.0.1:9897/integra/FI/AEPS/withdrawal/v2';
+const BASE_URL = 'http://10.10.11.222:9897/integra/FI/AEPS/withdrawal/v2';
 
 
 export default () => {
